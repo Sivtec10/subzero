@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SubZero Shaved Ice</title>
+  <style>
+    /* Background image only */
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      color: #007BFF; /* Default blue text */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: url('Copilot_20250930_180620.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    /* Title styling */
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+      color: #007BFF; /* Blue text */
+      -webkit-text-stroke: 2px red; /* Red border around text */
+      text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.3);
+    }
+
+    /* Navigation bar */
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #007BFF; /* Blue link text */
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: 2px solid #007BFF; /* Blue border */
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    nav a:hover {
+      background-color: #007BFF;
+      color: white;
+      transform: scale(1.05);
+    }
+
+    /* Mobile-friendly layout */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        -webkit-text-stroke: 1.5px red;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>SubZero Shaved Ice</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#pricing">Pricing</a>
+  </nav>
+<p>
+At Subzero Shaved Ice, we're in the business of creating smiles—one icy, flavorful scoop at a time. Born from a simple truth (who doesn't light up over shaved ice?), we've made it our mission to bring that pure joy to Southern California with every cup we serve. We blend unique, creative flavors with beloved classics, all crafted from only the finest ingredients because your happiness deserves nothing less. Whether you're looking for a nostalgic treat or an adventurous new favorite, we're here for it. Casual hangout or special celebration, we match your vibe and deliver the same thing every time: that ear-to-ear grin that reminds you why summer tastes so good.
+</body>
+</html>
